@@ -4,6 +4,15 @@ import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled
 import com.facebook.react.defaults.DefaultReactActivityDelegate
+import com.facebook.react.ReactApplication;
+import com.facebook.react.ReactNativeHost;
+import com.facebook.react.ReactPackage;
+import com.facebook.soloader.SoLoader;
+import com.reactnativecommunity.webview.RNCWebViewPackage;
+
+import java.util.Arrays;
+import java.util.List;
+
 
 class MainActivity : ReactActivity() {
 
